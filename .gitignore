@@ -1,0 +1,16 @@
+# Ignore Go binaries
+/bin/
+/pkg/
+
+# Ignore credentials and tokens
+auth/credentials.json
+auth/token.json
+
+# Ignore OS-specific files
+.DS_Store
+
+# Ignore Go test binaries
+*.test
+
+# Ignore log files
+*.log
